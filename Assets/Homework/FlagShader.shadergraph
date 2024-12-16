@@ -2377,10 +2377,10 @@
     "m_Guid": {
         "m_GuidSerialized": "e77d0ba2-ee8d-47fa-914b-88f25e4fdf79"
     },
-    "m_Name": "MainTex",
+    "m_Name": "Texture",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "MainTex",
-    "m_DefaultReferenceName": "_MainTex",
+    "m_RefNameGeneratedByDisplayName": "Texture",
+    "m_DefaultReferenceName": "_Texture",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2648,7 +2648,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "5675312c406e41b8a2a28674696dcb01",
     "m_Id": 0,
-    "m_DisplayName": "MainTex",
+    "m_DisplayName": "Texture",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4522,7 +4522,7 @@
     "m_CastShadows": false,
     "m_ReceiveShadows": true,
     "m_SupportsLODCrossFade": false,
-    "m_CustomEditorGUI": "",
+    "m_CustomEditorGUI": "FlagShaderEditor",
     "m_SupportVFX": false
 }
 
