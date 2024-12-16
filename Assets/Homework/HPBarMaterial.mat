@@ -101,6 +101,8 @@ Material:
     - _HPValue: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _OutlineEdgeThreshold: 0
+    - _OutlineThickness: 0.8
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -119,6 +121,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FullHPColor: {r: 0.11056287, g: 1, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor_1: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _ZeroHPColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

@@ -121,9 +121,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Second_Amplitude: -3.68
-    - _Second_Period: 4.34
-    - _Second_Phase_Shift: 2.08
+    - _Second_Amplitude: 4
+    - _Second_Period: 1.4
+    - _Second_Phase_Shift: -2.32
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
