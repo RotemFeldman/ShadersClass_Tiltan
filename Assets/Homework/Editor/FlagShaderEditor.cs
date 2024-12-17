@@ -13,10 +13,12 @@ public class FlagShaderEditor : ShaderGUI
         Material material = materialEditor.target as Material;
 
         MaterialProperty texture = FindProperty("_Texture", properties);
-        MaterialProperty flipDirection = FindProperty("_FlipMaskDirection", properties);
         materialEditor.ShaderProperty(texture, texture.displayName);
+        MaterialProperty flipDirection = FindProperty("_FlipMaskDirection", properties);
         materialEditor.ShaderProperty(flipDirection, flipDirection.displayName);
-
+        MaterialProperty applyColor = FindProperty("_ApplyColorBySine", properties);
+        materialEditor.ShaderProperty(applyColor, applyColor.displayName);
+        
         EditorGUILayout.Space();
 
         baseWind = EditorGUILayout.Foldout(baseWind, "Base Wind",true);
