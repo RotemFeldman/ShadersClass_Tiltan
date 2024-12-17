@@ -102,7 +102,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _OutlineEdgeThreshold: 0
-    - _OutlineThickness: 0.8
+    - _OutlineThickness: 0.4
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0

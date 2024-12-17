@@ -94,7 +94,7 @@ Material:
     - _Added_Phase_Shift: 0.85
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Amplitude: 5
+    - _Amplitude: 4
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -116,14 +116,14 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Period: 1.82
-    - _Phase_Shift: 2.66
+    - _Period: 0.68
+    - _Phase_Shift: -2.2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Second_Amplitude: 4
-    - _Second_Period: 1.4
-    - _Second_Phase_Shift: -2.32
+    - _Second_Amplitude: 2.4
+    - _Second_Period: 1.07
+    - _Second_Phase_Shift: -1.17
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -131,7 +131,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _Vertical_Shift: 0.22
+    - _Vertical_Shift: 1.49
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
