@@ -7,6 +7,7 @@ public class FlagShaderEditor : ShaderGUI
 {
     private bool baseWind = true;
     private bool secondWind = true;
+    private bool color = false;
     
     public override void OnGUI(MaterialEditor materialEditor, MaterialProperty[] properties)
     {
@@ -16,9 +17,19 @@ public class FlagShaderEditor : ShaderGUI
         materialEditor.ShaderProperty(texture, texture.displayName);
         MaterialProperty flipDirection = FindProperty("_FlipMaskDirection", properties);
         materialEditor.ShaderProperty(flipDirection, flipDirection.displayName);
-        MaterialProperty applyColor = FindProperty("_ApplyColorBySine", properties);
-        materialEditor.ShaderProperty(applyColor, applyColor.displayName);
         
+        color = EditorGUILayout.Foldout(color, "Color",true);
+        if (color)
+        {
+            MaterialProperty applyColor = FindProperty("_ApplyColorBySine", properties);
+            materialEditor.ShaderProperty(applyColor, applyColor.displayName);
+            
+            MaterialProperty colorA = FindProperty("_ColorA", properties);
+            materialEditor.ShaderProperty(colorA, colorA.displayName);
+            MaterialProperty colorB = FindProperty("_ColorB", properties);
+            materialEditor.ShaderProperty(colorB, colorB.displayName);
+        }
+
         EditorGUILayout.Space();
 
         baseWind = EditorGUILayout.Foldout(baseWind, "Base Wind",true);
@@ -33,7 +44,6 @@ public class FlagShaderEditor : ShaderGUI
             MaterialProperty verticalShift = FindProperty("_Vertical_Shift", properties);
             materialEditor.ShaderProperty(verticalShift, verticalShift.displayName);
         }
-        
         
         EditorGUILayout.Space();
         
