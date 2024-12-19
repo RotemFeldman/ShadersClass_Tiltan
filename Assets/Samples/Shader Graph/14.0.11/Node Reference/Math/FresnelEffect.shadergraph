@@ -275,8 +275,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": 0.00002396106719970703,
+            "y": 188.0
         },
         "m_Blocks": [
             {
@@ -303,6 +303,7 @@
     "m_OutputNode": {
         "m_Id": ""
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": [
         {
             "m_Id": "dc40edb1720e45e191c175e77c85dbf7"
