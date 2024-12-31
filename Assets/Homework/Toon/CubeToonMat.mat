@@ -7,16 +7,17 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FresnelMat
-  m_Shader: {fileID: 4800000, guid: 320c4224eb79e114abe8b1ca257675e8, type: 3}
+  m_Name: CubeToonMat
+  m_Shader: {fileID: -6465566751694194690, guid: f3f880f367f9d1641af162503e6c4f0a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _TYPE_BLINNPHONG
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -28,10 +29,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cube:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -67,10 +64,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RenderTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -91,8 +84,10 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _BandsAmount: 7.69
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
+    - _Brightness: 1.55
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -103,32 +98,37 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Float: 0.5
+    - _Float: 3
+    - _Glint_Power: 7.7
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _Outline_Thickness: 1
     - _Parallax: 0.005
+    - _Power: 99
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Sections: 51
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _TYPE: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorRGBA: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.40400434, g: 0.9339623, b: 0.2687344, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Outline_Color: {r: 0.0047169924, g: 0.6922881, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Vector: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &7320068437086179529
+--- !u!114 &5078857006506973668
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

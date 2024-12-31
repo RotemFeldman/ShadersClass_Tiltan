@@ -375,6 +375,7 @@
     "m_OutputNode": {
         "m_Id": ""
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": [
         {
             "m_Id": "e1e5a109a35c48618d38079c750e6fc5"
@@ -1262,7 +1263,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": -0.699999988079071,
+        "x": -0.6700000166893005,
         "y": 0.699999988079071,
         "z": -0.699999988079071,
         "w": 0.0
@@ -2223,7 +2224,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 5.0,
+    "m_Value": 5.079999923706055,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
