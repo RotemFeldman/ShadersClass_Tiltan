@@ -100,7 +100,7 @@ Material:
     - _EnvironmentReflections: 1
     - _Float: 3
     - _GlintPower: 1
-    - _Glint_Power: 38.5
+    - _Glint_Power: 99
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -112,7 +112,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Sections: 3.49
+    - _Sections: 6
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
