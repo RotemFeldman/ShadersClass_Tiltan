@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
   m_Name: FullscreenMask
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     passTag: FullscreenMask
     Event: 450
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0ec52cecc795714f93f274c2e71e87b, type: 3}
   m_Name: GlobalVolumeFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   _baseProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -72,11 +72,12 @@ MonoBehaviour:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
+  - {fileID: 1773476767079840025}
   - {fileID: -1114110547848633439}
   - {fileID: 7833122117494664109}
   - {fileID: 3573653513797426673}
   - {fileID: -3751262535411419207}
-  m_RendererFeatureMap: a163f70a5ce289f0ad6b866f10d7b46cf1dd38d0ef2a9831b937925d99d6f0cb
+  m_RendererFeatureMap: 19b9332fb9a79c18a163f70a5ce289f0ad6b866f10d7b46cf1dd38d0ef2a9831b937925d99d6f0cb
   m_UseNativeRenderPass: 1
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -115,6 +116,26 @@ MonoBehaviour:
   m_CopyDepthMode: 1
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+--- !u!114 &1773476767079840025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Blur
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  injectionPoint: 450
+  fetchColorBuffer: 0
+  requirements: 5
+  passMaterial: {fileID: 2100000, guid: e8253aeac85e53a4c824683f7477a318, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &3573653513797426673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1614fc811f8f184697d9bee70ab9fe5, type: 3}
   m_Name: DecalRendererFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   m_Settings:
     technique: 1
     maxDrawDistance: 1000
@@ -150,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f62c9c65cf3354c93be831c8bc075510, type: 3}
   m_Name: ScreenSpaceAmbientOcclusion
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   m_Settings:
     AOMethod: 0
     Downsample: 0
