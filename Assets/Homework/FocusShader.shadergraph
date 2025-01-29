@@ -6772,7 +6772,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b169f6a946ed4757b5f0a920d79b36ac",
     "m_Id": 0,
-    "m_DisplayName": "NoiseMaxRange",
+    "m_DisplayName": "NoiseBlurRange",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7982,10 +7982,10 @@
     "m_Guid": {
         "m_GuidSerialized": "f7170fac-9372-47d5-a907-b1b520cf5d99"
     },
-    "m_Name": "NoiseMaxRange",
+    "m_Name": "NoiseBlurRange",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NoiseMaxRange",
-    "m_DefaultReferenceName": "_NoiseMaxRange",
+    "m_RefNameGeneratedByDisplayName": "NoiseBlurRange",
+    "m_DefaultReferenceName": "_NoiseBlurRange",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -8376,7 +8376,7 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     },
-    "m_ScreenSpaceType": 0
+    "m_ScreenSpaceType": 1
 }
 
 {
