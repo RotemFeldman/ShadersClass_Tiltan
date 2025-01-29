@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: Blur
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 450
+  injectionPoint: 600
   fetchColorBuffer: 0
   requirements: 5
   passMaterial: {fileID: 2100000, guid: e8253aeac85e53a4c824683f7477a318, type: 2}
