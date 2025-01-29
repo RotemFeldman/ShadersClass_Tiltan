@@ -45,12 +45,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlurStrength: 1
-    - _BlurTransitionRange: 34
+    - _BlurStrength: 0.72
+    - _BlurTransitionRange: 26.9
     - _FarBlurRange: 15
     - _FocusRange: -15.99
-    - _LensRadius: 0.29
+    - _LensRadius: 0.137
     - _NearBlurRange: 5
+    - _NoiseMaxRange: 1000
+    - _TransitionLength: 10
     m_Colors:
-    - _LensPosition: {r: 0.74, g: 0.76, b: 0, a: 0}
+    - _LensPosition: {r: 0.5, g: 0.49, b: 0, a: 0}
   m_BuildTextureStacks: []
