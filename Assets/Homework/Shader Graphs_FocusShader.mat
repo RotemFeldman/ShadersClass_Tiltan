@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 8400000, guid: 6fa1d34ca2c8d0044999538a4d7c655d, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -41,12 +45,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlurStrength: 6.8
-    - _BlurTransitionRange: 29.34
+    - _BlurStrength: 0.36
+    - _BlurTransitionRange: 34
     - _FarBlurRange: 15
     - _FocusRange: -15.99
-    - _LensRadius: 0
+    - _LensRadius: 0.2
     - _NearBlurRange: 5
     m_Colors:
-    - _LensPosition: {r: -0.8, g: 0, b: 0, a: 0}
+    - _LensPosition: {r: 0.59, g: 0.43, b: 0, a: 0}
   m_BuildTextureStacks: []
